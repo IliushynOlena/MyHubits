@@ -1,0 +1,111 @@
+.habits-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+
+.habits-container h1 {
+  margin-bottom: 1.5rem;
+}
+
+
+.habit-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.habit-form input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+
+.habit-form button {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #4318ff;
+  color: white;
+  border: none;
+  padding: 0 1.25rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.habits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.habit-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+  transition: transform 0.2s;
+}
+
+
+.habit-card:hover {
+  transform: translateY(-2px);
+}
+
+
+.habit-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  flex: 1;
+}
+
+
+.habit-title {
+  font-weight: 500;
+  color: #2b3674;
+}
+
+
+.habit-card.done .habit-title {
+  text-decoration: line-through;
+  color: #a3AED0;
+}
+
+
+.habit-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.streak {
+  background: #fff4e5;
+  color: #ff9800;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ee5d50;
+  cursor: pointer;
+}
