@@ -1,0 +1,56 @@
+
+.profile {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.profile__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.profile__form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+}
+
+.profile__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.profile__input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.profile__input:focus {
+  border-color: #4318ff;
+}
+
+.profile__button {
+  background: #4318ff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.profile__button:hover {
+  background: #3311cc;
+}

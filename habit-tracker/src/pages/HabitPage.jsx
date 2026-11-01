@@ -31,6 +31,12 @@ export const HabitPage = () => {
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
+         <input
+          type="date"
+          placeholder="Нова звичка (наприклад, Зарядка)..."
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+        />
         <button type="submit"><Plus size={18} /> Додати</button>
       </form>
 

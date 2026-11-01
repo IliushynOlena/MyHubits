@@ -6,7 +6,7 @@ const initialState = {
     { id: 1, title: 'Випити 2 літри води', completed: false, streak: 3 },
     { id: 2, title: 'Читання 30 хвилин', completed: true, streak: 5 },
   ],
-  userName: 'Олексій',
+  userName: 'Олексій'
 };
 
 
